@@ -1,5 +1,23 @@
 # Data Science Job Posting Analysis
 
+### Tool Used
+![Python](https://img.shields.io/badge/Python-blue)
+
+### Project Type
+![Data Cleaning](https://img.shields.io/badge/Data%20Cleaning-purple)
+![Data Transformation](https://img.shields.io/badge/Data%20Transformation-purple)
+![Exploratory Data Analysis](https://img.shields.io/badge/Exploratory%20Data%20Analysis-purple)
+
+## Table of Contents
+- [Project Overview](#project-overview)  
+- [Dataset](#dataset)  
+- [Key Steps Performed](#key-steps-performed)  
+    - [Data Cleaning](#data-cleaning)  
+    - [Data Transformation](#data-transformation)  
+    - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
+- [How to Use](#how-to-use)  
+- [Future Work](#future-work)
+
 ## Project Overview
 This project focuses on cleaning, transforming, and exploring the **"Data Science Job Posting on Glassdoor"** dataset to prepare it for deeper analysis and insights.  
 The dataset includes information about various data science job postings such as job titles, salary estimates, company details, job descriptions, and required skills.
@@ -16,13 +34,13 @@ The dataset includes information about various data science job postings such as
 
 ## Key Steps Performed
 
-### 1. Data Cleaning
+### Data Cleaning
 - Checked for missing values (**none found**).
 - Verified duplicate rows (**none found**).
 - Cleaned whitespace in string columns.
 - Removed unnecessary columns (`Competitors`).
 
-### 2. Data Transformation
+### Data Transformation
 - **Salary Processing:**
   - Cleaned salary strings (removed `$`, `K`, and text).
   - Extracted `min_salary` and `max_salary`.
@@ -37,7 +55,7 @@ The dataset includes information about various data science job postings such as
   - Created binary columns for skills:
     - Python, Excel, Tableau, Big Data, Hadoop, Spark, AWS.
 
-### 3. Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 - Visualized company rating distributions.
 - Analyzed company age distribution.
 - Performed initial skill frequency and salary insights.
